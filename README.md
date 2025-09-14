@@ -32,7 +32,7 @@ cd VR-Teleop-Proj
 conda create -n vrteleop python=3.8
 conda activate vrteleop
 ```
-> Note: This step is optional. The project is developed under Python 3.8, so using a dedicated conda environment is recommended for consistency.
+> Note: This step is optional. The project is developed under **Python 3.8**, so using a dedicated conda environment is recommended for consistency.
 
 ### 3. Install dependencies
 ```bash
@@ -47,10 +47,18 @@ Setup instructions: https://github.com/rail-berkeley/oculus_reader
 ### 5. Install LIBERO
 
 Follow the official LIBERO setup instructions: https://github.com/Lifelong-Robot-Learning/LIBERO
+> Note: You only need to install the `libero` package. You do **not** need to download the demonstartion dataset.
 
 ### 6. Install panda-py
 
 Setup instructions: https://github.com/JeanElsner/panda-py
+> Note: For compatibility with `libfranka`, it is recommended to download 'panda_py_0.7.5_libfranka_0.10.0.zip' from [its release page](https://github.com/JeanElsner/panda-py/releases) .
+> After downloading and extracting, install the wheel with:
+```
+pip install panda_python-0.7.5+libfranka.0.10.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+```
+
+
 
 ## Usage
 
