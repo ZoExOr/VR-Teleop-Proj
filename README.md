@@ -8,6 +8,17 @@ It enables teleoperation in both **LIBERO** simulation environments and on a **F
 - Uses **Oculus Quest 3 controllers**, currently supporting the right-hand controller only  
 - Verified on **Ubuntu 20.04** (other platforms not yet tested)  
 
+## File Structure
+```
+VR-Teleop-Proj/
+├── scripts/
+│   ├── env_wrappers.py   # LIBERO Environment wrappers
+│   ├── vr2franka.py      # Teleoperation script for Franka Panda
+│   └── vr2libero.py      # Teleoperation script for LIBERO
+├── README.md             # Project documentation
+└── requirements.txt      # Python dependencies
+```
+
 ## Setup the project
 
 ### 1. Clone the repository
@@ -38,7 +49,7 @@ Follow the official LIBERO setup instructions: https://github.com/Lifelong-Robot
 
 ### 6. Install panda-py
 
-Setup instructions: https://github.com/rail-berkeley/oculus_reader
+Setup instructions: https://github.com/JeanElsner/panda-py
 
 ## Usage
 
