@@ -27,11 +27,12 @@ git clone https://github.com/ZoExOr/VR-Teleop-Proj.git
 cd VR-Teleop-Proj
 ```
 
-### 2. Create and activate a conda environment
+### 2. (Optional) Create and activate a conda environment
 ```bash
-conda create -n vrproj python=3.8
-conda activate vrproj
+conda create -n vrteleop python=3.8
+conda activate vrteleop
 ```
+> Note: This step is optional. The project is developed under Python 3.8, so using a dedicated conda environment is recommended for consistency.
 
 ### 3. Install dependencies
 ```bash
