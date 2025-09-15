@@ -31,8 +31,8 @@ VR2Arm-Proj/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/ZoExOr/VR-Teleop-Proj.git
-cd VR-Teleop-Proj
+git clone https://github.com/ZoExOr/VR2Arm-Proj.git
+cd VR2Arm-Proj
 ```
 
 ### 2. (Optional) Create and activate a conda environment
