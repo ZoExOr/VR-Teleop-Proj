@@ -13,7 +13,7 @@ The project is developed at the **Social AI Lab, Vrije Universiteit Amsterdam (V
 
 ## File Structure
 ```
-VR-Teleop-Proj/
+VR2Arm-Proj/
 ├── scripts/
 │   ├── env_wrappers.py   # LIBERO Environment wrappers
 │   ├── vr2franka.py      # Teleoperation script for Franka Panda
