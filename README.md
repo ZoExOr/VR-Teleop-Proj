@@ -1,12 +1,15 @@
-# VR-Teleop-Proj
+# VR2Arm: Real-Time Teleoperation Across Simulation and Reality
 
 ## Overview
-This is a **VR-based teleoperation framework** for robotic manipulation, developed at the **Social AI Lab, Vrije Universiteit Amsterdam (VU)**.  
+This is a **VR teleoperation pipeline** that maps hand movements to a robot arm in real time at **90 FPS**  
 
-It enables teleoperation in both **LIBERO** simulation environments and on a **Franka Emika Panda** robot, running in real time at **90 FPS**.  
+It has been validated in both **LIBERO** simulation and on a **Franka Emika Panda** robot, where high-speed dynamic tasks were performed in the real world.  
 
-- Uses **Oculus Quest 3 controllers**, currently supporting the right-hand controller only  
-- Verified on **Ubuntu 20.04** (other platforms not yet tested)  
+The project aims to collect high-quality human demonstrations to advance research on effective human-robot interaction.
+
+The project is developed at the **Social AI Lab, Vrije Universiteit Amsterdam (VU)**.
+
+
 
 ## File Structure
 ```
@@ -21,6 +24,11 @@ VR-Teleop-Proj/
 
 ## Setup the project
 
+### Hardware and System Requirements
+- **Oculus Quest 3 controllers** (currently supports right-hand controller only)  
+- **Ubuntu 20.04** (other platforms not yet tested)  
+- **Python 3.8** recommended  
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/ZoExOr/VR-Teleop-Proj.git
@@ -29,8 +37,8 @@ cd VR-Teleop-Proj
 
 ### 2. (Optional) Create and activate a conda environment
 ```bash
-conda create -n vrteleop python=3.8
-conda activate vrteleop
+conda create -n vr2arm python=3.8
+conda activate vr2arm
 ```
 > Note: This step is optional. The project is developed under **Python 3.8**, so using a dedicated conda environment is recommended for consistency.
 
@@ -47,7 +55,7 @@ Setup instructions: https://github.com/rail-berkeley/oculus_reader
 ### 5. Install LIBERO
 
 Follow the official LIBERO setup instructions: https://github.com/Lifelong-Robot-Learning/LIBERO
-> Note: You only need to install the `libero` package. You do **not** need to download the demonstartion dataset.
+> Note: You only need to install the `libero` package. You do **not** need to download the demonstration dataset.
 
 ### 6. Install panda-py
 
@@ -64,12 +72,13 @@ pip install panda_python-0.7.5+libfranka.0.10.0-cp38-cp38-manylinux_2_17_x86_64.
 
 1. Make sure all dependencies are installed.  
 2. Connect your Oculus Quest 3 to the laptop via cable.  
-3. For **simulation teleoperation**: keep the Quest 3 oriented in the same direction as the laptop.  
-4. For **Franka teleoperation**: place the Quest 3 on the **left side** of the laptop, with its cameras facing the left side of the laptop.
+3. For **simulation teleoperation**: align the Quest 3 orientation with the laptop.  
+4. For **Franka teleoperation**: place the Quest 3 to the **left** of the laptop, with its cameras facing sideways.
+5. Ensure the headset cameras have an unobstructed view of your controller during teleoperation. **Do not block the cameras**, for example by moving the controller under the desk.
 
    
 **Illustration of teleoperation setup**  
    <img width="693" height="186" alt="示意图 drawio" src="https://github.com/user-attachments/assets/96a89b1a-8c2c-4ff3-a49b-b975b8892b50" />
 
-5. Run the corresponding script for teleoperation.
+6. Run the corresponding script for teleoperation.
 
