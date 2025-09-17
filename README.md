@@ -1,4 +1,4 @@
-# VR2Arm: Real-Time Teleoperation Across Simulation and Reality
+# VR2Arm: VR-Based Teleoperation Across Simulation and Reality
 
 ## Overview
 Collecting high-quality human demonstrations is crucial for advancing human-robot interaction, but existing tools like SpaceMouse and keyboard are unintuitive and limited to simple, slow-paced tasks (e.g., pick-and-place). 
