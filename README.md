@@ -5,7 +5,7 @@ Collecting high-quality human demonstrations is crucial for advancing human-robo
 
 We present a VR-based teleoperation pipeline for natural hand-to-robot control, validated in simulation (LIBERO, a novel benchmark for robot manipulation) and on a Franka Panda robot. Our system runs at 90 FPS (vs. ~20 FPS in prior work) and supports not only basic manipulation tasks but also demanding real-world dynamic scenarios such as flipping an object in a pan, demonstrating strong potential for advancing human-robot interaction research.
 
-The project is developed at the **Social AI Lab, Vrije Universiteit Amsterdam (VU)**.
+The project is developed at the **[Social AI Lab, Vrije Universiteit Amsterdam (VU)](https://www.socialai.nl/)**.
 
 
 
