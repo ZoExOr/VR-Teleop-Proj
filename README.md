@@ -1,11 +1,11 @@
 # VR2Arm: Real-Time Teleoperation Across Simulation and Reality
 
 ## Overview
-This is a **VR teleoperation pipeline** that maps hand movements to a robot arm in real time at **90 FPS**, developed at the **Social AI Lab, Vrije Universiteit Amsterdam (VU)**.
+Collecting high-quality human demonstrations is crucial for advancing human-robot interaction, but existing tools like SpaceMouse and keyboard are unintuitive and limited to simple, slow-paced tasks (e.g., pick-and-place). 
 
-It has been validated in both **LIBERO** simulation and on a **Franka Emika Panda** robot, where high-speed dynamic tasks were performed in the real world.  
+We present a VR-based teleoperation pipeline for natural hand-to-robot control, validated in simulation (LIBERO, a novel benchmark for robot manipulation) and on a Franka Panda robot. Our system runs at 90 FPS (vs. ~20 FPS in prior work) and supports not only basic manipulation tasks but also demanding real-world dynamic scenarios such as flipping an object in a pan, demonstrating strong potential for advancing human-robot interaction research.
 
-The project aims to collect high-quality human demonstrations to advance research on effective human-robot interaction.
+The project is developed at the **Social AI Lab, Vrije Universiteit Amsterdam (VU)**.
 
 
 
