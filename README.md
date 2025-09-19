@@ -59,7 +59,7 @@ Follow the official LIBERO setup instructions: https://github.com/Lifelong-Robot
 ### 6. Install panda-py
 
 Setup instructions: https://github.com/JeanElsner/panda-py
-> Note: For compatibility with `libfranka`, it is recommended to download 'panda_py_0.7.5_libfranka_0.10.0.zip' from [its release page](https://github.com/JeanElsner/panda-py/releases) .
+> Note: For compatibility with `libfranka`, it is recommended to download `panda_py_0.7.5_libfranka_0.10.0.zip` from [its release page](https://github.com/JeanElsner/panda-py/releases) .
 > After downloading and extracting, install the wheel with:
 ```
 pip install panda_python-0.7.5+libfranka.0.10.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
