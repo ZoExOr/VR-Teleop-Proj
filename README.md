@@ -73,8 +73,8 @@ pip install panda_python-0.7.5+libfranka.0.10.0-cp38-cp38-manylinux_2_17_x86_64.
 
 ## Usage
 
-1. Ensure **all** dependencies are installed.
-2. Ensure the customized version of `oculus_reader` is installed.
+1. Make sure all dependencies are installed.
+2. Make sure the customized version of `oculus_reader` is installed.
 3. Connect your Oculus Quest 3 to the laptop via cable.  
 4. For **simulation teleoperation**: align the Quest 3 orientation with the laptop.  
 5. For **Franka teleoperation**: place the Quest 3 to the **left** of the laptop, with its cameras facing sideways.
