@@ -16,6 +16,8 @@ VR2Arm-Proj/
 │   ├── env_wrappers.py   # LIBERO Environment wrappers
 │   ├── vr2franka.py      # Teleoperation script for Franka Panda
 │   └── vr2libero.py      # Teleoperation script for LIBERO
+├── APK/
+│   ├── teleop-debug.apk   # customized build of oculus_reader for teleoperation
 ├── README.md             # Project documentation
 └── requirements.txt      # Python dependencies
 ```
@@ -65,15 +67,18 @@ Setup instructions: https://github.com/JeanElsner/panda-py
 pip install panda_python-0.7.5+libfranka.0.10.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 ```
 
-
+## How to install our customized version of `oculus_reader`
+1. Put `teleop-debug.apk` in `oculus_reader/oculus_reader/APK`, replacing the original APK.
+2. Reinstall APK with `python oculus_reader/install.py --reinstall`
 
 ## Usage
 
-1. Make sure all dependencies are installed.  
-2. Connect your Oculus Quest 3 to the laptop via cable.  
-3. For **simulation teleoperation**: align the Quest 3 orientation with the laptop.  
-4. For **Franka teleoperation**: place the Quest 3 to the **left** of the laptop, with its cameras facing sideways.
-5. Ensure the headset cameras have an unobstructed view of your controller during teleoperation. **Do not block the cameras**, for example by moving the controller under the desk.
+1. Ensure **all** dependencies are installed.
+2. Ensure the customized version of `oculus_reader` is installed.
+3. Connect your Oculus Quest 3 to the laptop via cable.  
+4. For **simulation teleoperation**: align the Quest 3 orientation with the laptop.  
+5. For **Franka teleoperation**: place the Quest 3 to the **left** of the laptop, with its cameras facing sideways.
+6. Ensure the headset cameras have an unobstructed view of your controller during teleoperation. **Do not block the cameras**, for example by moving the controller under the desk.
 
    
 **Illustration of teleoperation setup**  
